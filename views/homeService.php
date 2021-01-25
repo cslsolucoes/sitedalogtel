@@ -1,4 +1,4 @@
-<?php header("Location: ../homeservice"); ?>
+
 <?php include("../header.php")?>
 <div class="mt-5">
 
@@ -132,6 +132,10 @@
                                             <spam class="text-info"><i class="fa fa-check fa-lg" aria-hidden="true"></i> Até 2 atendimentos personalizados no mês </spam><br>
                                             <spam class="text-info"><i class="fa fa-check fa-lg" aria-hidden="true"></i> Atendimento de segunda à sexta-feira das 8h às 18h </spam><br>
                                         </spam>
+                                        <a class="btn btn-warning col-md-10 mt-4 " href="tel:40639001">
+                                            <i class="fa fa-desktop text-white"></i>    
+                                            Solicitar Suporte
+                                        </a>
                                         </div>
                                         <div class="card-footer">
                                             R$<spam class="cardtitle3">79,90</spam>/por mês</spam><br>
@@ -144,6 +148,10 @@
                                             <spam class="cardtitle2">1 ATENDIMENTO PERSONALIZADO</spam><br>
                                             <spam class="text-info"><i class="fa fa-check fa-lg" aria-hidden="true"></i> Tenha 1 atendimentos personalizados de 2horas </spam><br>
                                             <spam class="text-info"><i class="fa fa-check fa-lg" aria-hidden="true"></i> Atendimento de segunda à sexta-feira das 8h às 18h </spam><br>
+                                            <a class="btn btn-warning col-md-10 mt-4 " href="tel:40639001">
+                                                <i class="fa fa-desktop text-white"></i>    
+                                                Solicitar Suporte
+                                            </a>
                                         </div>
                                         <div class="card-footer">
                                             R$<spam class="cardtitle3"> 59,90</spam>/atendimento</spam><br>
@@ -200,7 +208,11 @@
                         </div>
                         <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample">
                         <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            <strong>Os clientes que possuem o COMBÃO LOGTEL já possuem o serviço de Home Service incluso.<br></strong>
+
+                            Para a contratação do serviço os pacotes disponíveis são:<br><br>
+                            2 atendimentos presenciais mensais não acumulativos por R$79,90 mensal.</br>
+                            1 atendimento presencial de até 2 horas por R$59,90 avulso.
                         </div>
                         </div>
                     </div>

@@ -72,7 +72,7 @@
               </li>
               -->
               <li class="nav-item">
-                <a target="_blank" class="nav-link" href="<?= $uri ?>/views/homeService.php">HOME SERVICE<i class="fa fa-home ml-1" aria-hidden="true"></i></a>
+                <a  class="nav-link" href="<?= $uri ?>/views/homeService.php">HOME SERVICE<i class="fa fa-home ml-1" aria-hidden="true"></i></a>
               </li>
               <li class="nav-item">
                 <a target="_blank" class="nav-link" href="http://www.logtelplay.com.br/">LOGTEL PLAY <i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
