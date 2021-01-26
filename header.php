@@ -5,6 +5,8 @@
     <!-- Meta tags Obrigatórias -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="<?= $uri ?>/node_modules/img/favicon.ico" />
+    
 
     <!-- Bootstrap CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
@@ -58,7 +60,7 @@
           <div id="menu" class="collapse navbar-collapse">
             <ul class="navbar-nav links mt-4">
               <li class="nav-item">
-                <a class="nav-link" href="<?= $uri ?>/#nossosPlanos">NOSSOS PLANOS</a>
+                <a class="nav-link" href="<?= $uri ?>/#nossosPlanos">NOSSOS COMBOS</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="<?= $uri ?>/views/empresa.php">EMPRESA</a>
