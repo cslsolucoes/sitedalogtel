@@ -84,14 +84,14 @@
                     <div id="collapse_watch_primeiro_acesso" class="collapse" aria-labelledby="watch_primeiro_acesso" data-parent="#accordion">
                     <div class="card-body">
                         <div class="text-justify">
-                            <p class="cardtitle mt-5">
+                            <p class="mt-5">
                                 Assim que você se torna um cliente <spam class="text-danger">LOGTEL</spam>, seu acesso ao MUMO é liberado automaticamente.
                             </p>
-                            <p class="cardtitle mt-5">
+                            <p class="mt-5">
                                 Para acessar basta baixar o aplicativo MUMO na loja de aplicativos do seu celular ou tablet. O seu login é o seu número de telefone cadastrado conosco.
                                 Quando acessar pelo APP ou pelo site da plataforam, aparecerá uma página perguntando por qual operadora acessará, basta escolher Logtel.
                             </p>
-                            <p class="cardtitle mt-5">
+                            <p class="mt-5">
                                 Em caso de dúvidas: ligue para nosso Suporte
             <spam class="ligue ml-3">
               <!-- <i class="fa fa-phone " aria-hidden="true"></i> -->

@@ -84,17 +84,17 @@
                     <div id="collapse_watch_primeiro_acesso" class="collapse" aria-labelledby="watch_primeiro_acesso" data-parent="#accordion">
                     <div class="card-body">
                         <div class="text-justify">
-                            <p class="cardtitle mt-5">
+                            <p class="mt-5">
                                 Assim que você se torna cliente <spam class="text-danger"> LOGTEL </spam>, seu acesso ao <spam class="text-info"> Noggin </spam> é liberado automaticamente.<br>
                                 Basta acessar pelo <spam class="text-red">WATCH</spam> após receber sua senha direto no email cadastrado na Logtel.
                             </p>
-                            <p class="cardtitle mt-5">
+                            <p class="mt-5">
                                 Caso não tenha recebido sua senha pelo e-mail cadastrado, acesse o Esqueci minha senha 
                                 <a class="btn-link text-danger" href="https://watch.tv.br/esqueci-minha-senha">
                                 "https://watch.tv.br/esqueci-minha-senha"</a>,
                                 coloque o email cadastrado para recuperar a senha
                             </p>
-                            <p class="cardtitle mt-5">
+                            <p class="mt-5">
                                 Ou ligue para nosso Suporte
                             <spam class="ligue ml-3">
                                 <!-- <i class="fa fa-phone " aria-hidden="true"></i> -->
