@@ -8,7 +8,7 @@
 
     <div class="section-slide carousel-inner">
         <div class="carousel-item active">
-            <img class="img-fluid d-block mx-auto slider-banner" src="<?= $uri ?>/node_modules/img/banner5.png" alt="0">
+            <img class="img-fluid d-block mx-auto slider-banner" src="<?= $uri ?>/node_modules/img/Banner.jpg" alt="0">
             <div class="container carousel-caption ">
                 <h1 class="text-bold text-primary"></h1>
                 <p></p>

@@ -1,49 +1,51 @@
 
 <div  class="container-fluid " style="padding-bottom: 1.4em; padding-top: 1.4em;" id="nossosPlanos">
-
+<!-- 
     <div class="col-md-5 mx-auto text-center">
         <h3 class="cardtitle" >Nossos Combos</h3>
         <spam class="line-efect"></spam>
     </div>
-
+ -->
     
     <div class="tab-content">
         <div id="grid_view" class="tab-pane fade show active" role="tabpanel">
-            <div class="objects-grid gutters-sm mt-5 offset-md-1">
+            <div class="objects-grid gutters-sm mt-2 offset-md-1">
                 <div class="form-row col-md-11" >
                     <!-- aparecer apenas no mobile -->
                     <div class="object-vertical col-xl-3 col-md-12 mb-4 d-xl-none" >
                         <div class="card border-primary">
                             <div class="card-header card-header-planos">
-                                <div class="main-cardtitle">Mais vendido</div><br>
-                                <spam class="cardtitle3"> COMBO IDEAL</spam></br><br>
-                                <spam class=""> Contrate </spam>
-                                <spam class="cardtitle5-tachado"> 120 MEGA</spam><spam class="cardtitle5"> *</spam><br>
-                                <spam class=""> e receba o</spam><spam class="cardtitle5"> DOBRO</spam><br><br>
-                                <spam class="cardtitle2"> 240 MEGA </spam>
-                                <div class="text-right 	text-top text-bottom mr-5">
-                                    <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
-                                    <a href="http://www.logtelplay.com.br/"  >
-                                        <img class="" src="<?= $uri ?>/node_modules/img/logo/logoplay-preta-oficial.png" width="20%">
-                                    </a>
-                                </div>
-                                <div class="mt-2">
-                                    R$<spam class="cardtitle3"> 119,90</spam>/por mês</spam><br>
-                                <div class="card-legend align-bottom ligue">
-                                    <spam class="ligue">Instalação Grátis</spam>
-                                </div> 
+                                <div class="teste2 mx-auto d-block">
+                                    <div class=" main-cardtitle mx-auto d-block">Mais vendido</div><br>
+                                    <spam class="cardtitle3"> COMBO IDEAL</spam></br><br>
+                                    <spam class=""> Contrate </spam>
+                                    <spam class="cardtitle5-tachado"> 120 MEGA</spam><spam class="cardtitle5"> *</spam><br>
+                                    <spam class=""> e receba o</spam><spam class="cardtitle5"> DOBRO</spam><br><br>
+                                    <spam class="cardtitle2"> 240 MEGA </spam>
+                                    <div class="text-right 	text-top text-bottom mr-5">
+                                        <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
+                                        <a href="http://www.logtelplay.com.br/"  >
+                                            <img class="" src="<?= $uri ?>/node_modules/img/logo/logoplay-preta-oficial.png" width="25%">
+                                        </a>
+                                    </div>
+                                    <div class="mt-3">
+                                        R$<spam class="cardtitle3"> 119,90</spam>/por mês</spam><br>
+                                        <div class="card-legend align-bottom ligue">
+                                            <spam class="ligue">Instalação Grátis</spam>
+                                        </div> 
+                                    </div>
                                 </div>
                             </div>
                             <div class="card-body text-primary card-body-planos">
                                 <spam><i class="fa fa-check fa-lg" aria-hidden="true"></i> 120 MEGA <spam class="cardtitle5"> Upload</spam><br>
                                     <?php include("views/comboAlto.php")?>
                                 </spam>
-                            </div>
+                            </div><!-- 
                             <div class="card-footer-planos card-legend text-center">
                                 <button type="button" class="btn btn-primary col-md-7 mt-4 align-bottom" data-toggle="modal" data-target="#modal_contratar">Contrate</button><br>
                                 <spam class="cardtitle0">*Válido no desconto de pontualidade, após vencimento R$ 139,90 + taxas
                                 <spam class="">*Receba o dobro da velocidade contratada por 12 meses</spam>
-                            </div>
+                            </div> -->
                         </div>  
                     </div>
 
@@ -51,96 +53,101 @@
                     <div class="object-vertical col-xl-3 col-md-12 mb-4" >
                         <div class="card">
                             <div class="card-header card-header-planos">
-                                <br>
-                                <spam class="cardtitle3">COMBO SIMPLES</spam></br><br>
-                                <br><br>
-                                <spam class="cardtitle2"> 25 MEGA </spam>
-                                <div class="text-right 	text-top text-bottom mr-5">
-                                    <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
-                                    <a href="http://www.logtelplay.com.br/"  >
-                                        <img class="" src="<?= $uri ?>/node_modules/img/logo/logoplay-preta-oficial.png" width="20%">
-                                    </a>
-                                </div><br>
-                                <div class="mt-3">
-                                    R$<spam class="cardtitle3"> 89,90</spam>/por mês</spam><br>
+                                <div class="teste2 mx-auto d-block">
+                                    <br>
+                                    <spam class="cardtitle3">COMBO SIMPLES</spam></br><br>
+                                    <br><br><br><br>
+                                    <spam class="cardtitle2"> 25 MEGA </spam>
+                                    <div class="text-right">
+                                        <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
+                                        <a href="http://www.logtelplay.com.br/"  >
+                                            <img src="<?= $uri ?>/node_modules/img/logo/logoplay-preta-oficial-mini.png" width="50%">
+                                        </a>
+                                    </div>
+                                    <div class="mt-3">
+                                        R$<spam class="cardtitle3"> 89,90</spam>/por mês</spam><br>
+                                    </div>
+                                    <div class="card-legend align-bottom">
+                                        <spam class="cardtitle0">Instalação Até 3 x 49,67 ou 149,00</spam>
+                                    </div> 
                                 </div>
-                                <div class="card-legend align-bottom">
-                                    <spam class="cardtitle0">Instalação Até 3 x 49,67 ou 149,00</spam>
-                                </div> 
                             </div>
                             <div class="card-body text-primary card-body-planos">
                                 <spam><i class="fa fa-check fa-lg" aria-hidden="true"></i> 13 MEGA <spam class="cardtitle5"> Upload</spam><hr>
                                 <?php include("views/comboSimples.php")?>
-                            </div>
+                            </div><!-- 
                             <div class="card-footer-planos text-center">
                                 <button type="button" class="btn btn-primary col-md-7 mt-4 align-bottom" data-toggle="modal" data-target="#modal_contratar">Contrate</button>
-                                </spam><br><!-- 
+                                </spam><br>
                                 <div class="card-legend align-bottom">
                                     <spam class="cardtitle0">*Válido no desconto de pontualidade, após vencimento R$ 109,90 + taxas
                                     <spam class="">*Receba o dobro da velocidade contratada por 12 meses</spam>
-                                </div> -->
-                            
-                            </div>
+                                </div> 
+                            </div> -->
                         </div>  
                     </div>
                     <div class="object-vertical col-xl-3 col-md-12 mb-4" >
                         <div class="card">
                             <div class="card-header card-header-planos">
-                                <br>
-                                <spam class="cardtitle3">COMBO BÁSICO</spam></br><br>
-                                <spam class=""> Contrate </spam>
-                                <spam class="cardtitle5-tachado"> 50 MEGA</spam><spam class="cardtitle5"> *</spam><br>
-                                <spam class=""> e receba o</spam><spam class="cardtitle5"> DOBRO</spam><br><br>
-                                <spam class="cardtitle2"> 100 MEGA </spam>
-                                <div class="text-right 	text-top text-bottom mr-5">
-                                    <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
-                                    <a href="http://www.logtelplay.com.br/"  >
-                                        <img class="" src="<?= $uri ?>/node_modules/img/logo/logoplay-preta-oficial.png" width="20%">
-                                    </a>
+                                <div class="teste2 mx-auto d-block">
+                                    <br>
+                                    <spam class="cardtitle3">COMBO BÁSICO</spam></br><br>
+                                    <spam class=""> Contrate </spam>
+                                    <spam class="cardtitle5-tachado"> 50 MEGA</spam><spam class="cardtitle5"> *</spam><br>
+                                    <spam class=""> e receba o</spam><spam class="cardtitle5"> DOBRO</spam><br><br>
+                                    <spam class="cardtitle2"> 100 MEGA </spam>
+                                    <div class="text-right">
+                                        <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
+                                        <a href="http://www.logtelplay.com.br/"  >
+                                            <img src="<?= $uri ?>/node_modules/img/logo/logoplay-preta-oficial-mini.png" width="50%">
+                                        </a>
+                                    </div>
+                                    <div class="mt-3">
+                                        R$<spam class="cardtitle3"> 99,90*</spam>/por mês</spam><br>
+                                    </div>
+                                    <div class="card-legend align-bottom">
+                                        <spam class="cardtitle0">Instalação Até 3 x 33,00 ou 99,00</spam>
+                                    </div> 
                                 </div>
-                                <div class="mt-2">
-                                    R$<spam class="cardtitle3"> 99,90*</spam>/por mês</spam><br>
-                                </div>
-                                <div class="card-legend align-bottom">
-                                    <spam class="cardtitle0">Instalação Até 3 x 33,00 ou 99,00</spam>
-                                </div> 
                             </div>
                             <div class="card-body text-primary card-body-planos">
                                 <spam><i class="fa fa-check fa-lg" aria-hidden="true"></i> 50 MEGA 
                                 <spam class="cardtitle5"> Upload</spam><hr>
                                 </spam>
                                 <?php include("views/comboAlto.php")?>
-                            </div>
+                            </div><!-- 
                             <div class="card-footer-planos text-center">
                                 <button type="button" class="btn btn-primary col-md-7 mt-4 align-bottom" data-toggle="modal" data-target="#modal_contratar">Contrate</button>
                                 <div class="card-legend align-bottom">
                                     <spam class="cardtitle0">*Válido no desconto de pontualidade, após vencimento R$ 109,90 + taxas
                                     <spam class="">*Receba o dobro da velocidade contratada por 12 meses</spam>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>  
                     </div>
                     <!-- não aparecer no mobile d-none d-xl-block -->
                     <div class="object-vertical col-xl-3 col-md-12 mb-4 d-none d-xl-block" >
                         <div class="card border-primary">
                             <div class="card-header card-header-planos">
-                                <div class="main-cardtitle">Mais vendido</div><br>
-                                <spam class="cardtitle3"> COMBO IDEAL</spam></br><br>
-                                <spam class=""> Contrate </spam>
-                                <spam class="cardtitle5-tachado"> 120 MEGA</spam><spam class="cardtitle5"> *</spam><br>
-                                <spam class=""> e receba o</spam><spam class="cardtitle5"> DOBRO</spam><br><br>
-                                <spam class="cardtitle2"> 240 MEGA </spam>
-                                <div class="text-right 	text-top text-bottom mr-5">
-                                    <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
-                                    <a href="http://www.logtelplay.com.br/"  >
-                                        <img class="" src="<?= $uri ?>/node_modules/img/logo/logoplay-preta-oficial.png" width="20%">
-                                    </a>
-                                </div>
-                                <div class="mt-2">
-                                    R$<spam class="cardtitle3"> 119,90*</spam>/por mês</spam><br>
-                                <div class="card-legend align-bottom">
-                                    <spam class="ligue">Instalação Grátis</spam>
-                                </div> 
+                                <div class="teste2 mx-auto d-block">
+                                    <div class="main-cardtitle">Mais vendido</div><br>
+                                    <spam class="cardtitle3"> COMBO IDEAL</spam></br><br>
+                                    <spam class=""> Contrate </spam>
+                                    <spam class="cardtitle5-tachado"> 120 MEGA</spam><spam class="cardtitle5"> *</spam><br>
+                                    <spam class=""> e receba o</spam><spam class="cardtitle5"> DOBRO</spam><br><br>
+                                    <spam class="cardtitle2"> 240 MEGA </spam>
+                                    <div class="text-right">
+                                        <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
+                                        <a href="http://www.logtelplay.com.br/"  >
+                                            <img src="<?= $uri ?>/node_modules/img/logo/logoplay-preta-oficial-mini.png" width="50%">
+                                        </a>
+                                    </div>
+                                    <div class="mt-3">
+                                        R$<spam class="cardtitle3"> 119,90*</spam>/por mês</spam><br>
+                                    <div class="card-legend align-bottom"><br>
+                                        <spam class="ligue">Instalação Grátis</spam>
+                                    </div> 
+                                    </div>
                                 </div>
                             </div>
                             <div class="card-body text-primary card-body-planos">
@@ -148,35 +155,37 @@
                                 <hr>
                                     <?php include("views/comboAlto.php")?>
                                 </spam>
-                            </div>
+                            </div><!-- 
                             <div class="card-footer-planos card-legend text-center">
                                 <button type="button" class="btn btn-primary col-md-7 mt-4 align-bottom" data-toggle="modal" data-target="#modal_contratar">Contrate</button><br>
                                 <spam class="cardtitle0">*Válido no desconto de pontualidade, após vencimento R$ 139,90 + taxas
                                 <spam class="">*Receba o dobro da velocidade contratada por 12 meses</spam>
-                            </div>
+                            </div> -->
                         </div>  
                     </div>
                     <!-- fim nao aparecer no mobile -->
                     <div class="object-vertical col-xl-3 col-md-12 mb-4" >
                         <div class="card">
                             <div class="card-header card-header-planos">
-                                <br>
-                                <spam class="cardtitle3">COMBÃO LOGTEL</spam></br><br>
-                                <spam class=""> Contrate </spam>
-                                <spam class="cardtitle5-tachado"> 200 MEGA</spam><spam class="cardtitle5"> *</spam><br>
-                                <spam class=""> e receba o</spam><spam class="cardtitle5"> DOBRO</spam><br><br>
-                                <spam class="cardtitle2"> 400 MEGA </spam>
-                                <div class="text-right 	text-top text-bottom mr-5">
-                                    <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
-                                    <a href="http://www.logtelplay.com.br/"  >
-                                        <img class="" src="<?= $uri ?>/node_modules/img/logo/logoplay-preta-oficial.png" width="20%">
-                                    </a>
-                                </div>
-                                <div class="mt-2">
-                                    R$<spam class="cardtitle3"> 149,90*</spam>/por mês</spam><br>
-                                <div class="card-legend align-bottom">
-                                    <spam class="ligue">Instalação Grátis</spam>
-                                </div> 
+                                <div class="teste2 mx-auto d-block">
+                                    <br>
+                                    <spam class="cardtitle3">COMBÃO LOGTEL</spam></br><br>
+                                    <spam class=""> Contrate </spam>
+                                    <spam class="cardtitle5-tachado"> 200 MEGA</spam><spam class="cardtitle5"> *</spam><br>
+                                    <spam class=""> e receba o</spam><spam class="cardtitle5"> DOBRO</spam><br><br>
+                                    <spam class="cardtitle2"> 400 MEGA </spam>
+                                    <div class="text-right">
+                                        <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
+                                        <a href="http://www.logtelplay.com.br/"  >
+                                            <img src="<?= $uri ?>/node_modules/img/logo/logoplay-preta-oficial-mini.png" width="50%">
+                                        </a>
+                                    </div>
+                                    <div class="mt-3">
+                                        R$<spam class="cardtitle3"> 149,90*</spam>/por mês</spam><br>
+                                    <div class="card-legend align-bottom"><br>
+                                        <spam class="ligue">Instalação Grátis</spam>
+                                    </div> 
+                                    </div>
                                 </div>
                             </div>
                             <div class="card-body text-primary card-body-planos">
@@ -185,17 +194,18 @@
                                 </spam>
                                 <hr>
                                 <?php include("views/comboAlto.php")?>
-                                <div class="mt-2">
+                                <hr>
+                                <div class="mt-2 mb-2">
                                     <a class="" href="http://www.logteltelecom.com.br/site/homeservice/"> 
-                                        <img class="btn-planos-home-service pl-3 pr-3 pb-2" src="<?= $uri ?>/node_modules/img/logo/logo-home-service-azul-mini2.png" >
+                                        <img class="btn-planos-home-service pl-3 pr-3 pb-2" src="<?= $uri ?>/node_modules/img/logo/logo-home-service-azul-mini.png" width="40%" >
                                     </a>
                                 </div>
-                            </div>
+                            </div><!-- 
                             <div class="card-footer card-footer-planos text-center">
                                 <button type="button" class="btn btn-primary col-md-7 mt-4 align-bottom" data-toggle="modal" data-target="#modal_contratar">Contrate</button><br>
                                 <spam class="cardtitle0">*Válido no desconto de pontualidade, após vencimento R$ 169,90 + taxas
                                 <spam class="">*Receba o dobro da velocidade contratada por 12 meses</spam>
-                            </div>
+                            </div> -->
                         </div> 
                     </div>
                 </div>
