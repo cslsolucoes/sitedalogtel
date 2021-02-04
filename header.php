@@ -35,9 +35,12 @@
   </head>
   <body>
 
-    <nav class="navbar p-2 m-0  navbar-light navegacao">
+    <nav class="navbar p-5  navbar-light navegacao">
       <div class="container">
-          <div class="text-danger ml-auto mt-4">
+      <spam class="col-md-3 p-2">
+          <a href="http://www.logteltelecom.com.br/site"><img src="<?= $uri ?>/node_modules/img/logo/logo-logtel-oficial.png" widht="30%"></a>
+        </spam>
+          <div class="text-danger ml-auto mt-4 mb-4">
           <ul class="social-network social-circle mr-5">
             <li><a target="_blank" href="http://www.logtelplay.com.br/" class="logtelplay" title="Logtel Play"><i class="fa fa-play-circle"></i></a></li>
             <li><a target="_blank" href="https://www.facebook.com/logtel.internet/" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
@@ -48,17 +51,14 @@
       </div>
     </nav>
      
-    <nav class="navbar navbar-expand-lg navbar-light navegacao">  
+    <nav class="navbar navbar-expand-lg mb-1 navbar-light navegacao">  
       <div class="container">
-        <spam class="col-md-3 ">
-          <a href="http://www.logteltelecom.com.br/site"><img src="<?= $uri ?>/node_modules/img/logo/logo-logtel-oficial.png"></a>
-        </spam>
           <button class="navbar-toggler custom text-danger" type="button" data-toggle="collapse" data-target="#menu"
               aria-controls="menu" aria-expanded="false" aria-label="Menu Colapso"><i class="fa fa-bars " aria-hidden="true"></i>
           </button>
 
           <div id="menu" class="collapse navbar-collapse">
-            <ul class="navbar-nav links mt-4">
+            <ul class="navbar-nav links mx-auto d-block ">
               <li class="nav-item">
                 <a class="nav-link" href="<?= $uri ?>/#nossosPlanos">NOSSOS COMBOS</a>
               </li>
