@@ -11,11 +11,11 @@
         <div id="grid_view" class="tab-pane fade show active" role="tabpanel">
             <div class="objects-grid gutters-sm mt-3 offset-md-1">
                 <div class="form-row col-md-11" >
-                    <!-- aparecer apenas no mobile -->
+                    <!-- aparecer apenas no mobile d-xl-none -->
                     <div class="object-vertical col-xl-3 col-md-12 mb-4 d-xl-none" >
-                        <div class="main-cardtitle col-md-12">Mais vendido</div><br>
                         <div class="card border-primary">
                             <div class="card-header card-header-planos">
+                            <div class="main-cardtitle col-md-12">Mais vendido</div><br>
                                 <div class="teste2 mx-auto d-block">
                                     <spam class="cardtitle3"> COMBO IDEAL</spam></br><br>
                                     <spam class="cardtitle4"> Contrate </spam>
@@ -23,28 +23,29 @@
                                     <spam class="cardtitle4"> e receba o</spam><spam class="cardtitle5"> DOBRO</spam><br><br>
                                     <spam class="cardtitle2"> 240 MEGA </spam>
                                     <div class="mt-3">
-                                        R$<spam class="cardtitle3"> 119,90</spam>/por mês</spam><br>
-                                        <div class="card-legend align-bottom ligue">
+                                        R$<spam class="cardtitle3"> 119,90*</spam>/por mês</spam><br>
+                                        <div class="card-legend align-bottom">
                                             <spam class="ligue">Instalação Grátis</spam>
                                         </div> 
+                                        <button type="button" class="btn btn-secondary col-md-8 mt-3 mb-3 align-bottom text-withe tx-240" data-toggle="modal" data-target="#modal_contratar">Contrate</button><br>
                                     </div>
                                 </div>
                             </div>
+                            
                             <div class="card-body text-primary card-body-planos">
-                                <spam>
-                                    <i class="fa fa-check fa-lg" aria-hidden="true"></i> 120 MEGA <spam class="cardtitle5"> Upload</spam><br>
-                                    <a>
-                                        <img src="<?= $uri ?>/node_modules/img/planos/wi-fi-plus-mini2.png"  class="btn-planos-home-service" >
-                                    </a>
-                                    <hr>
-                                    <?php include("views/comboAlto.php")?>
+                                <spam><i class="fa fa-check fa-lg" aria-hidden="true"></i> 120 MEGA <spam class="cardtitle5"> Upload</spam><br>
+                                <hr>
+                                <a>
+                                    <img src="<?= $uri ?>/node_modules/img/planos/wifi-mini2.png"  class="btn-planos-home-service" >
+                                </a>
+                                <hr>
+                                <?php include("views/comboAlto.php")?>
                                 </spam>
-                            </div><!-- 
+                            </div> 
                             <div class="card-footer-planos card-legend text-center">
-                                <button type="button" class="btn btn-primary col-md-7 mt-4 align-bottom" data-toggle="modal" data-target="#modal_contratar">Contrate</button><br>
                                 <spam class="cardtitle0">*Válido no desconto de pontualidade, após vencimento R$ 139,90 + taxas
                                 <spam class="">*Receba o dobro da velocidade contratada por 12 meses</spam>
-                            </div> -->
+                            </div>
                         </div>  
                     </div>
 
@@ -62,7 +63,7 @@
                                     <div class="card-legend align-bottom">
                                         <spam class="cardtitle0">Instalação Até 3 x 49,67 ou 149,00</spam>
                                     </div>
-                                    <button type="button" class="btn btn-secondary col-md-8 m-3 mt-4 align-bottom" data-toggle="modal" data-target="#modal_contratar">Contrate</button><br>
+                                    <button type="button" class="btn btn-secondary col-md-8 mb-3 mt-3 align-bottom" data-toggle="modal" data-target="#modal_contratar">Contrate</button><br>
                                 </div>
                             </div>
                             <div class="card-body text-primary card-body-planos">
@@ -96,7 +97,7 @@
                                     <div class="card-legend align-bottom">
                                         <spam class="cardtitle0">Instalação Até 3 x 33,00 ou 99,00</spam>
                                     </div>
-                                    <button type="button" class="btn btn-secondary col-md-8 m-3 mt-4 align-bottom" data-toggle="modal" data-target="#modal_contratar">Contrate</button><br>
+                                    <button type="button" class="btn btn-secondary col-md-8 mb-3 mt-3 align-bottom" data-toggle="modal" data-target="#modal_contratar">Contrate</button><br>
                                 </div>
                             </div>
                             <div class="card-body text-primary card-body-planos">
@@ -128,11 +129,11 @@
                                     <spam class="cardtitle4"> e receba o</spam><spam class="cardtitle5"> DOBRO</spam><br><br>
                                     <spam class="cardtitle2"> 240 MEGA </spam>
                                     <div class="mt-3">
-                                    R$<spam class="cardtitle3"> 119,90*</spam>/por mês</spam><br>
-                                    <div class="card-legend align-bottom">
-                                        <spam class="ligue">Instalação Grátis</spam>
-                                    </div> 
-                                    <button type="button" class="btn btn-secondary col-md-8 m-3 align-bottom text-withe tx-240" data-toggle="modal" data-target="#modal_contratar">Contrate</button><br>
+                                        R$<spam class="cardtitle3"> 119,90*</spam>/por mês</spam><br>
+                                        <div class="card-legend align-bottom">
+                                            <spam class="ligue">Instalação Grátis</spam>
+                                        </div> 
+                                        <button type="button" class="btn btn-secondary col-md-8 mb-3 mt-3 align-bottom text-withe tx-240" data-toggle="modal" data-target="#modal_contratar">Contrate</button><br>
                                     </div>
                                 </div>
                             </div>
@@ -170,7 +171,7 @@
                                         <spam class="ligue">Instalação Grátis</spam>
                                     </div> 
                                     </div>
-                                    <button type="button" class="btn btn-secondary col-md-8 m-3 align-bottom" data-toggle="modal" data-target="#modal_contratar">Contrate</button><br>
+                                    <button type="button" class="btn btn-secondary col-md-8 mb-3 mt-3 align-bottom" data-toggle="modal" data-target="#modal_contratar">Contrate</button><br>
                                 </div>
                             </div>
                             <div class="card-body text-primary card-body-planos">

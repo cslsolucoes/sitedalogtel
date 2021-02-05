@@ -1,5 +1,5 @@
 
-<div id="home" class="carousel slide" data-ride="carousel">
+<div id="home" class="carousel slide d-none d-xl-block " data-ride="carousel">
     
     <!-- <ol class="carousel-indicators">
         <li data-target="#home" data-slide-to="0"  class="active"></li>
@@ -7,7 +7,7 @@
     </ol> -->
 
     <div class="section-slide carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item active ">
             <img class="img-fluid d-block mx-auto slider-banner" src="<?= $uri ?>/node_modules/img/Banner.jpg" alt="0">
             <div class="container carousel-caption ">
                 <h1 class="text-bold text-primary"></h1>
@@ -26,3 +26,7 @@
     </a>
 
 </div>
+
+
+<section class="header-site d-xl-none">
+</section>

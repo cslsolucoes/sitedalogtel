@@ -10,7 +10,7 @@
   <?php include("views/nossosPlanos.php")?>
   <?php include("views/logtelTV.php")?>
   <?php include("views/vantagens.php")?>
-  <?php include("views/barraConversao.php")?>
+ //<?php include("views/barraConversao.php")?> 
   <?php include("views/suporte.php")?>
   <?php include("views/contratar.php")?>
 

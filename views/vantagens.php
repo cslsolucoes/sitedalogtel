@@ -12,9 +12,9 @@
                 <div class="form-row" >
                     <div class="object-vertical col-xl-4 col-md-12  mt-5 " >
                         <div class="row text-right mb-4">
-                            <div class="col-9">
+                            <div class="col-8">
                                 <h5>Suportes 24h</h5>
-                                <p>Oferecemos suporte técnico 24h com colaboradores treinados com excelência em atendimento.  </p>
+                                <p class="text-justify">Oferecemos suporte técnico 24h com colaboradores treinados com excelência em atendimento.  </p>
                             </div>
                             <div class="col-3">
                                 <i class="fa fa-wrench circle-danger"></i>
@@ -23,7 +23,7 @@
                         <div class="row text-right mb-4">
                             <div class="col-9">
                                 <h5>Logtel Music</h5>
-                                <p>Um app com diversas rádios onlines. E isso sem propagandas e sem custo adicional.</p>
+                                <p class="text-justify">Um app com diversas rádios onlines. E isso sem propagandas e sem custo adicional.</p>
                             </div>
                             <div class="col-3">
                                 <i class="fa fa-music circle-danger"></i>
@@ -32,7 +32,7 @@
                         <div class="row text-right mb-4">
                             <div class="col-9">
                                 <h5>Internet ilimitada</h5>
-                                <p>Navegue o quanto quiser, 24h por dia. Ao fim do mês não reduzimos sua velocidade.</p>
+                                <p class="text-justify">Navegue o quanto quiser, 24h por dia. Ao fim do mês não reduzimos sua velocidade.</p>
                             </div>
                             <div class="col-3">
                                 <i class="fa fa-wifi circle-danger"></i>
@@ -47,17 +47,18 @@
                             <div class="col-3">
                                 <i class="fa fa-globe circle-danger"></i>
                             </div>
-                            <div class="col-9">
+                            <div class="col-8">
                                 <h5>Melhor desempenho</h5>
-                                <p>Assista a vídeos em HD, curta vários streamings, jogue online e sem delay!</p>
+                                <p class="text-justify">Assista a vídeos em HD, curta vários streamings, jogue online e sem delay!</p>
                             </div>
                         </div>
                         <div class="row text-left mb-4">
                             <div class="col-3">
                                 <i class="fa fa-play-circle-o circle-danger"></i>
                             </div>
-                            <div class="col-9"><h5>Logtel Play</h5>
-                                <p>O combo de filmes, séries e desenhos, sem nenhum adicional por isto.</p>
+                            <div class="col-9">
+                                <h5>Logtel Play</h5>
+                                <p class="text-justify">O combo de filmes, séries e desenhos, sem nenhum adicional por isto.</p>
                             </div>
                         </div>
                         <div class="row text-left mb-5">
@@ -66,7 +67,7 @@
                             </div>
                             <div class="col-9">
                                 <h5>Alta velocidade de upload</h5>
-                                <p>Compartilhe fotos e vídeos com mais rapidez. </p>
+                                <p class="text-justify">Compartilhe fotos e vídeos com mais rapidez. </p>
                             </div>
                         </div>
                     </div>
