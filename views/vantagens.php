@@ -1,7 +1,6 @@
 <div  class="objects-container container pb-2" style="padding-top: 1.4em;">
     <div class="col-md- mx-auto d-block text-center">
-        <h3 class="cardtitle">Vantagens</h3>
-        <spam class="line-efect"  style=" margin-left: -70px;"></spam>
+        <h3 class="cardtitle2">Vantagens</h3>
     </div>
 
     
@@ -12,7 +11,7 @@
                 <div class="form-row" >
                     <div class="object-vertical col-xl-4 col-md-12  mt-5 " >
                         <div class="row text-right mb-4">
-                            <div class="col-8">
+                            <div class="col-9">
                                 <h5>Suportes 24h</h5>
                                 <p class="text-justify">Oferecemos suporte técnico 24h com colaboradores treinados com excelência em atendimento.  </p>
                             </div>

@@ -24,7 +24,7 @@
           <div class="border-5"></div>
           <div class="border-6"></div>
       </div>
-    <footer id="sticky-footer" class="py-4 bg-gradient-primary text-white-50 " style="min-height: 100px;">
+    <footer id="sticky-footer" class="py-4 bg-primary text-white-50 " style="min-height: 100px;">
       <div class="container">
         <div class="form-row  mt-2"> 
             <div class="col-md-3 ">

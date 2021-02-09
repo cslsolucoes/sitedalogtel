@@ -13,19 +13,16 @@
             <div class="objects-grid gutters-sm mt-5">
               <div class="form-row col-md-12">
                 <div class="object-vertical col-xl-6 col-md-12 mb-1">
-                  <spam class="line-efect" style="margin-left: 5px;"></spam><br>
-                  <h4 class="text-primary mt-0">FALE DIRETO COM UM CONSULTOR ONLINE PELA NOSSA CENTRAL DE VENDAS</h4>
-                  <spam class="line-efect " style="margin-left: 5px;"></spam>
-                  <br><br>
                   <ul class="social-network social-circle container">
                     <li><a href="http://www.logtelplay.com.br/" class="logtelplay" title="Logtel Play"><i class="fa fa-play-circle"></i></a></li>
                     <li><a href="https://www.facebook.com/logtel.internet/" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="https://twitter.com/logtel_internet" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="https://www.instagram.com/logtel_internet/" class="instagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
-                  </ul><br><br>
+                  </ul><br>
+                  <h4 class="text-primary mt-2">FALE DIRETO COM UM CONSULTOR ONLINE PELA NOSSA CENTRAL DE VENDAS</h4>
+                  <br>
                 </div>
                 <div class="object-vertical col-xl-6 col-md-12 mb-1">
-                  <spam class="line-efect" style="margin-left: 5px;"></spam><br>
                   <div class="row text-left mt-3">
                     <div class="col-2">
                       <i class="fa fa-whatsapp infobox-icon green-gradient"></i>
@@ -45,9 +42,8 @@
                     </div>
                   </div>
                   <br><br>
-                  <spam class="line-efect " style="margin-left: 5px;"></spam>
                 </div>
-                <div class="card object-vertical col-xl-12 col-md-12 box-shadow1 mt-5" style="background-color:#cacaca21">
+                <div class="card object-vertical col-xl-12 col-md-12 box-shadow1 mt-1" style="background-color:#cacaca21">
                   <div class="card-body">
                     <form class="mt-3" method="post" action="mail_vendas.php" style="font-weight: 600;">
                     <label class="">Escolha seu plano</label>
@@ -112,7 +108,7 @@
                         </div>
                       </div>
 
-                      <button class="btn btn-secondary mb-3" type="submit">Enviar</button>
+                      <button class="btn btn-secondary col-md-3 mb-3" type="submit">Enviar</button>
                     </form>
                   </div>
                 </div>

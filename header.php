@@ -50,18 +50,18 @@
               <li><a target="_blank" href="https://twitter.com/logtel_internet" class="icoTwitter" title="Telegram"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
             </ul>
           </spam>
-          <spam class="pt-2 pb-2 pl-1 pr-1">
+          <spam class="pt-2 pb-2 pl-3 pr-1">
             <a href="http://www.logteltelecom.com.br/site"><img src="<?= $uri ?>/node_modules/img/logo/logo-logtel-oficial-mini.png"></a>
           </spam>
 
-          <div id="menu" class="collapse navbar-collapse justify-content-center md-auto ">
-            <ul class="navbar-nav links mx-auto text-center ">
+          <div id="menu" class="collapse navbar-collapse ml-2" style="font-size:13px;">
+            <ul class="navbar-nav links  ">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="<?= $uri ?>/corporativo">PARA VOCÊ</a>
+                <a class="nav-link" data-toggle="dropdown" href="<?= $uri ?>">PARA VOCÊ</a>
               </li>
               <li class="nav-item">
                 <spam class="line-left">
-                <a  class="nav-link dropdown-toggle" data-toggle="dropdown" href="<?= $uri ?>/corporativo/index.php">PARA SEU NEGÓCIO</a>
+                <a  class="nav-link" data-toggle="dropdown" href="<?= $uri ?>/corporativo/">PARA EMPRESAS</a>
               </li>
               <li class="nav-item">
                 <spam class="line-left">
@@ -86,8 +86,8 @@
     <nav class="navbar navbar-expand-lg navbar-light navegacao ">  
       <div class="container">
 
-          <div id="menu" class="collapse navbar-collapse justify-content-center md-auto text-center">
-            <ul class="navbar-nav links mx-auto col-md-8 text-center">
+          <div id="menu" class="collapse navbar-collapse">
+            <ul class="navbar-nav links col-md-8">
               <li class="nav-item">
                 <a class="nav-link" href="<?= $uri ?>/#nossosPlanos">NOSSOS COMBOS</a>
               </li>

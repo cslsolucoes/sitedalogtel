@@ -107,6 +107,6 @@
     <a style="margin-bottom:20px" class="btn btn-secondary p-3 col-6 offset-md-3 mt-5" href="<?= $uri ?>/#nossosPlanos">CONHEÇA NOSSOS PLANOS</a>
 
 </div>
-
+<?php include("barraConversao.php")?>
 <?php include("suporte.php")?>
 <?php include("../footer.php")?>

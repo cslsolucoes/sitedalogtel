@@ -7,16 +7,15 @@
         <div class="card ">
             <div class="card-body">
                 <div class="text-center">
-                    <img class="pb-2"  src="<?= $uri ?>/node_modules/img/logo/logo-home-service-azul-mini.png" ><br>
+                    <img class="pb-2"  src="<?= $uri ?>/node_modules/img/logo/logo-home-service-azul-mini3.png" ><br>
                     <!-- <spam class="cardtitle2">
                         LOGTEL HOME SERVICE<br>
-                    </spam>  --> 
-                    <spam class="cardtitle4 text-primary" >
-                        A ASSISTÊNCIA TÉCNICA ESPECIALIZADA DA LOGTEL INTERNET<br>
-                    </spam>       
-                    <h5 class="text-center text-danger">
-                        <b>TENHA SEUS APARELHOS CONECTADOS NA SUA INTERNET</b>
+                    </spam>  -->       
+                    <h5 class="text-center text-danger">A ASSISTÊNCIA TÉCNICA ESPECIALIZADA DA LOGTEL
                     </h5>
+                    <spam class="cardtitle4 text-primary" >
+                        <b>TENHA TODOS OS SEUS APARELHOS CONECTADOS NA SUA INTERNET</b>
+                    </spam> 
                 </div>
                     
                 <div id="grid_view" class="tab-pane fade show position-center active mt-5" role="tabpanel">
@@ -125,9 +124,9 @@
                         <div class="objects-grid gutters-sm mt-5 col-md-12 ">
                             <div class="form-row text-center" >
                                 <div class="object-vertical col-xl-6 col-md-12 " >
-                                    <div class="card  border-primary">
+                                    <div class="card border-primary">
+                                        <div class="main-cardtitle" style="font-size: 26px;">GRÁTIS PARA CLIENTES COMBÃO LOGTEL</div>
                                         <div class="card-body">
-                                            <div class="main-cardtitle">GRÁTIS PARA CLIENTES COMBÃO LOGTEL</div>
                                             <spam class="cardtitle2">2 ATENDIMENTOS PERSONALIZADOS</spam><br>
                                             <spam class="text-info"><i class="fa fa-check fa-lg" aria-hidden="true"></i> Até 2 atendimentos personalizados no mês </spam><br>
                                             <spam class="text-info"><i class="fa fa-check fa-lg" aria-hidden="true"></i> Atendimento de segunda à sexta-feira das 8h às 18h </spam><br>
